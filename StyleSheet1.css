@@ -1,0 +1,119 @@
+body
+{
+    background-color:#1554b7;
+}
+.theButtonToShowInputs
+{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    border-radius:25px;
+    background-color:#4ee8e3;
+    border:1px solid black;
+    height:50px;
+    width:50px;
+    outline: none;
+    text-align:center;
+    font-weight:300;
+    font-size:30px;
+    cursor:pointer;
+
+}
+.theButtonToHideInputs
+{
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    border-radius:25px;
+    background-color:#4ee8e3;
+    border:1px solid black;
+    height:50px;
+    width:50px;
+    outline: none;
+    text-align:center;
+    font-weight:300;
+    font-size:50px;
+    cursor:pointer;
+    line-height:40px;
+
+}
+.theMainTitle
+{
+    font-style:italic;
+    margin:10px auto;
+    text-align:center;
+}
+
+.inputBookContainer
+{
+    margin:30px 10px;
+    background-color:#e065d6;
+    padding:15px 10px;
+    text-align:center;
+    border:1px solid black;
+    display:none;
+    border-radius: 20px;
+}
+.inputsClass
+{
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align:center;
+    outline:none;
+    width: 150px;
+}
+.addBookButton
+{
+    border-radius: 10px;
+    position: relative;
+    left: 325px;
+    background-color:#4ee8e3;
+    outline:none;
+    box-shadow: 1px 1px 10px blanchedalmond;
+    cursor:pointer;
+}
+.forUl
+{
+   	list-style-type: none;
+  	width: 500px;
+    margin: 20px 350px;
+}
+/*.divTitle
+{
+    display:none;
+    color:#e9f1dd;
+    height:30px;
+    width:200px;
+}
+.divTitle div
+{
+    width:66px;
+    text-align:center;
+}*/
+ul.forUl li
+{
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    display:flex;
+    border-radius: 15px;
+    padding: 5px;
+}
+ul.forUl li div
+{
+    flex:1;
+    text-align:center;
+}
+
+ul.forUl li button:nth-child(4)
+{
+    text-align:center;
+    cursor:pointer;
+    height: 30px;
+    line-height: 40px;
+    background-color:#1554b7;
+    border: none;
+    font-size: 25px;
+    outline:none;
+    font-weight: 600;
+}
